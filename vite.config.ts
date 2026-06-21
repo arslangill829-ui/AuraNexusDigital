@@ -4,8 +4,8 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  base: '/AuraNexusDigital/',//
   return {
+    base: '/AuraNexusDigital/',//
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
